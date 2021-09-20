@@ -2,4 +2,6 @@ import { createApp } from "vue";
 import App from "./App";
 import "./assets/css/index.css";
 import router from './router'
-createApp(App).use(router).mount("#app");
+import i18n from '@/plugins/i18n';
+
+createApp(App).use(router).use(i18n).mount("#app");
