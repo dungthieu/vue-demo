@@ -1,13 +1,13 @@
-import VueI18n from 'vue-i18n';
-import  Vi from '@/locales/vi.json'
+import { createI18n } from "vue-i18n";
+
+import vi from "@/locales/vi.json";
+
 const messages = {
-    'en': {},
-    'vi': Vi
+  vn: vi,
 };
 
-const i18n = new VueI18n({
-    locale: 'vi', // set locale
-    fallbackLocale: 'vi', // set fallback locale
-    messages, // set locale messages
+export default createI18n({
+  locale: "vn", // set locale
+  messages,
+  fallbackLocale: "vn",
 });
-export default i18n;

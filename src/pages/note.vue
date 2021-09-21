@@ -1,5 +1,5 @@
 <template>
-<div class="note">
+  <div class="note">
     <!-- header  -->
     <HeaderNote />
     <!-- list -->
@@ -9,17 +9,16 @@
   </div>
 </template>
 <script>
-import HeaderNote from "@/views/header.vue"
-import NoteItem from "@/views/note-item.vue"
-import AddNote from "@/views/add-note.vue"
+import HeaderNote from "@/views/header.vue";
+import NoteItem from "@/views/note-item.vue";
+import AddNote from "@/views/add-note.vue";
 
 export default {
- components:{
-HeaderNote,
+  components: {
+    HeaderNote,
     NoteItem,
-    AddNote
-    }
-
-}
+    AddNote,
+  },
+};
 </script>
 <style lang=""></style>
