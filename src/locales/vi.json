@@ -1,5 +1,8 @@
 {
-    "note":{
-        "Title":"Todo List"
-    }
+  "note": {
+    "Title": "Todo List",
+    "Description": "Danh sách list của Dũng",
+    "ShowComplete": "Hiện các mục đã hoàn thành",
+    "NewTodo": "Thêm nhiệm vụ"
+  }
 }
